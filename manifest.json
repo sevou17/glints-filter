@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Glints Filter",
+  "version": "1.0",
+  "description": "Menyembunyikan lowongan dari perusahaan scam di Glints",
+  "permissions": ["storage"],
+  "host_permissions": ["*://*.glints.com/*", "*://glints.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Glints Filter"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://glints.com/*", "*://*.glints.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["intercept.js"],
+      "matches": ["*://glints.com/*", "*://*.glints.com/*"]
+    }
+  ]
+}
