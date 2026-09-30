@@ -1,10 +1,9 @@
 # Glints Filter
 
 > A lightweight Chrome extension that lets you hide unwanted job listings on Glints using customizable keywords.
-
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Chrome-yellow.svg)](https://www.google.com/chrome/)
-
+![Glints Filter Demo](assets/demo.gif)
 Glints Filter is a browser extension designed to make browsing job listings on [Glints](https://glints.com/) more focused by automatically hiding job listings that match user-defined keywords.
 
 For example, users can block keywords such as:
