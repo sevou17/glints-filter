@@ -175,7 +175,7 @@ A more specific keyword is recommended, such as:
 ```text
 Telemarketing
 Sales Executive
-Nama Perusahaan
+Scam companies/Job offers
 ```
 
 The extension also depends on the current structure and behavior of the Glints website. Changes to Glints' frontend, API behavior, or DOM structure may require updates to the extension.
